@@ -1,0 +1,17 @@
+# 本地凭据和个人数据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+_private/
+**/原始个人数据/
+# 系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+# 常见构建与依赖
+node_modules/
+__pycache__/
+*.pyc
